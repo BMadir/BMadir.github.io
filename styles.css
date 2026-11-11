@@ -1,0 +1,194 @@
+/* =====================================
+   SIDEBAR
+===================================== */
+
+.sidebar {
+    background-color: #6b92b9;
+    border-right: 1px solid #8bb9ca;
+}
+
+/* Navigation links */
+.sidebar nav[role="doc-toc"] a,
+.sidebar .sidebar-item-text {
+    color: #2c3e50;
+}
+
+/* Active menu item */
+.sidebar .sidebar-item-container .active {
+    color: #1764a0;
+    font-weight: 600;
+}
+
+/* Sidebar spacing */
+.sidebar .sidebar-item {
+    margin-bottom: 8px;
+}
+
+/* Active page in sidebar */
+.sidebar .sidebar-item-container .active {
+    color: #1764a0;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+/* =====================================
+   GENERAL
+===================================== */
+
+/* Main content */
+#quarto-content main {
+    max-width: 1000px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.7;
+}
+
+/* Tables */
+table {
+    font-size: 0.95rem;
+}
+
+/* Hide page titles */
+#title-block-header {
+    display: none;
+}
+
+/* Research equations */
+.column .math.display {
+    font-size: 0.9em;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* Research simulations */
+.column img {
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+/* =====================================
+   HOME PAGE
+===================================== */
+
+/* Two-column layout */
+.home-columns {
+    align-items: flex-start;
+}
+
+/* =====================================
+   PROFILE PHOTO - LEFT COLUMN
+===================================== */
+
+.profile-column {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profile-column img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* =====================================
+   BIOGRAPHY - RIGHT COLUMN
+===================================== */
+
+.bio-column h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bio-column p {
+    line-height: 1.7;
+}
+
+
+/* =====================================
+   RESEARCH INTERESTS
+===================================== */
+
+.keywords-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 8px; /* 12px vertical, 8px horizontal */
+
+    background-color: #f8f9fa;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.keyword {
+    display: inline-block;
+    background-color: #e8f1f8;
+    color: #1764a0;
+    padding: 3px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+/* =====================================
+   CONTACT
+===================================== */
+
+.contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-links i {
+    margin-right: 8px;
+    color: #1764a0;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #1764a0;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 768px) {
+
+    .profile-column {
+        padding-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .bio-column h1 {
+        font-size: 26px;
+    }
+
+    .keywords-box {
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .contact-links {
+        gap: 20px;
+    }
+}

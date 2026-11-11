@@ -1,0 +1,109 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Bahae-Eddine Madir\nPostdoctoral Researcher\nI am a postdoctoral researcher in applied mathematics at the Laboratoire de Mathématiques Raphaël Salem (LMRS), University of Rouen Normandy. My current research focuses on inverse problems and the optimization of phase-change materials using scientific machine learning techniques.\nIn June 2026, I obtained my PhD in Applied Mathematics at LMRS. My doctoral research focused on the numerical simulation of liquid–solid phase-change problems using machine learning approaches, particularly Physics-Informed Neural Networks (PINNs).\n\nResearch Interests\n\nNumerical Methods for PDEs Scientific Machine Learning PINNs\n\n\n\nLiquid–Solid Systems Phase Change\n\n\n\n\nFor more details about my research, see the Research page.\n\n\n\nMy scientific codes and projects are available on my GitHub page.\n\n\nContact\nEmail:\nbahae-eddine.madir1@univ-rouen.fr\nOffice:\nM.2.16, 2nd floor\nLaboratoire de Mathématiques Raphaël Salem (LMRS)\nUMR 6085, CNRS – University of Rouen Normandy\nAvenue de l’Université, BP 12\n76801 Saint-Étienne-du-Rouvray, France",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Alongside my research activities, I have also been involved in teaching undergraduate mathematics at the University of Rouen Normandy.",
+    "crumbs": [
+      "Teaching"
+    ]
+  },
+  {
+    "objectID": "teaching.html#teaching-experience",
+    "href": "teaching.html#teaching-experience",
+    "title": "Teaching",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\n2025–2026\n\nNumerical Analysis (24h) — Third-year undergraduate (L3).\nScientific Computing (16h) — Third-year undergraduate (L3).\nAlgebra (56h) — First-year undergraduate (L1).\n\n\n\n2024–2025\n\nNumerical Analysis (48h) — Third-year undergraduate (L3).\nScientific Computing (16h) — Third-year undergraduate (L3).\n\n\n\n2023–2024\n\nMathematical Analysis (64h) — First-year undergraduate (L1).",
+    "crumbs": [
+      "Teaching"
+    ]
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "With: Francky Luddens, Simon Bernard.\nAt: LMRS, University of Rouen Normandy.\n\nMy current research focuses on scientific machine learning approaches for approximating solutions to parameter-dependent PDEs over a range of parameter values, without solving the equations separately for each parameter configuration. The goal is to leverage these approaches to address inverse problems and optimize phase-change materials.",
+    "crumbs": [
+      "Research"
+    ]
+  },
+  {
+    "objectID": "research.html#postdoctoral-research-2026-present",
+    "href": "research.html#postdoctoral-research-2026-present",
+    "title": "Research",
+    "section": "",
+    "text": "With: Francky Luddens, Simon Bernard.\nAt: LMRS, University of Rouen Normandy.\n\nMy current research focuses on scientific machine learning approaches for approximating solutions to parameter-dependent PDEs over a range of parameter values, without solving the equations separately for each parameter configuration. The goal is to leverage these approaches to address inverse problems and optimize phase-change materials.",
+    "crumbs": [
+      "Research"
+    ]
+  },
+  {
+    "objectID": "research.html#doctoral-research-20222026",
+    "href": "research.html#doctoral-research-20222026",
+    "title": "Research",
+    "section": "Doctoral Research (2022–2026)",
+    "text": "Doctoral Research (2022–2026)\n\nWith: Ionut Danaila, Francky Luddens, Corentin Lothodé.\nAt: LMRS, University of Rouen Normandy.\n\nPhysics-Informed Neural Networks (PINNs) have emerged as a promising approach for solving partial differential equations (PDEs) by incorporating physical laws into the neural network training process [RPK19]. My doctoral research investigated the application of PINNs to fluid flow and liquid–solid phase-change problems, with a particular focus on two classes of problems.\n\nHeat Conduction with Phase Change\nThe Stefan problem describes heat conduction in materials undergoing a phase transition, where the liquid–solid interface evolves over time according to energy conservation. In this formulation, fluid motion and convective heat transfer are neglected.\n\n\nThe temperature \\(\\theta\\) satisfies the heat equation in each phase (liquid and solid) \\[\n\\frac{\\partial \\theta_j}{\\partial t} = \\mathrm{Fo} \\, \\nabla^2 \\theta_j,\n\\qquad j \\in \\{l,s\\},\n\\] while the motion of the liquid–solid interface \\(s(t)\\) is governed by the Stefan condition: \\[\n\\frac{\\partial \\theta_s}{\\partial n}\n- \\frac{\\partial \\theta_l}{\\partial n} = \\frac{s'(t)}{\\mathrm{Fo} \\, \\mathrm{Ste}},\n\\qquad x = s(t).\n\\]\nHere, \\(\\mathrm{Fo}\\) and \\(\\mathrm{Ste}\\) are the Fourier and Stefan numbers.\n\n\nTemperature prediction for the one-dimensional Stefan problem.\n\n\n\n\nLiquid–Solid Systems with Phase Change\nUnlike the Stefan problem, this problem accounts for fluid motion and natural convection during melting and solidification. The governing equations couple the incompressible Navier–Stokes equations with heat transfer and phase change through an enthalpy–porosity approach.\n\n\nThe velocity field \\(\\mathbf{u}\\), pressure \\(p\\), and temperature \\(\\theta\\) satisfy the following system:\n\\[\n\\begin{aligned}\n\\nabla \\cdot \\mathbf{u} &= 0, \\\\[1ex]\n\\frac{\\partial \\mathbf{u}}{\\partial t}\n+ (\\mathbf{u}\\cdot\\nabla)\\mathbf{u}\n+ \\nabla p\n- \\frac{1}{\\mathrm{Re}}\\nabla^2 \\mathbf{u}\n- F(\\theta)\\,\\vec{\\mathbf{e}}\n- A(\\theta)\\,\\mathbf{u} &= 0, \\\\[1.2ex]\n\\frac{\\partial \\theta}{\\partial t}\n+ (\\mathbf{u}\\cdot\\nabla)\\theta\n- \\frac{1}{\\mathrm{Re}\\,\\mathrm{Pr}}\\nabla^2 \\theta\n+ \\frac{1}{\\mathrm{Ste}}\n\\frac{\\partial \\varphi_\\delta(\\theta)}{\\partial t} &= 0.\n\\end{aligned}\n\\]\nHere, \\(\\mathrm{Re}\\), \\(\\mathrm{Pr}\\), and \\(\\mathrm{Ste}\\) denote the Reynolds, Prandtl, and Stefan numbers, respectively. The terms \\(F(\\theta)\\) and \\(A(\\theta)\\) represent buoyancy and solid-phase penalization, while \\(\\varphi_\\delta(\\theta)\\) describes the regularized liquid fraction.\n\n\nTemperature evolution during melting with natural convection.\n\n\nThe main difficulty in solving these problems lies in the moving liquid–solid interface, which introduces regularity issues and makes the solution challenging to approximate using neural networks. My thesis investigates these difficulties and explores different approaches to address them within the PINN framework.\nThe full PhD thesis can be downloaded here.",
+    "crumbs": [
+      "Research"
+    ]
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n\n[1] B.-E. Madir, F. Luddens, C. Lothodé, and I. Danaila, “Physics informed neural networks for heat conduction with phase change,” International Journal of Heat and Mass Transfer, vol. 252, p. 127430, 2025.\n\n\n[2] B.-E. Madir and A. Lechevallier, “Benchmarking PDE problems via machine learning for enhanced computational modeling,” ESAIM: Proceedings and Surveys, vol. 81, pp. 33–54, 2025.",
+    "crumbs": [
+      "Research"
+    ]
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks & Conferences",
+    "section": "",
+    "text": "Date\nEvent\nLocation\nContribution\nMaterials\n\n\n\n\nApr. 2026\nPIML Day\nParis, France\nPoster: Physics-Informed Neural Networks for Liquid–Solid Systems with Phase Change\nPoster\n\n\nJul. 2025\nAI4Science – Summer School\nCaen, France\nTalk: Physics-Informed Neural Networks for Liquid–Solid Systems with Phase Change\n—\n\n\nMay 2024\nCANUM 2024\nÎle de Ré, France\nTalk: Physics-Informed Neural Networks for Heat Conduction with Phase Change\n—\n\n\nJul.–Aug. 2023\nCEMRACS 2023 Hackathon\nCIRM, Marseille, France\nResearch project: Fourier Neural Operators for Incompressible Two-Phase Flow Simulation\n—\n\n\nJul. 2023\nCEMRACS 2023 – Summer School\nCIRM, Marseille, France\nScientific Machine Learning\n—",
+    "crumbs": [
+      "Events"
+    ]
+  },
+  {
+    "objectID": "talks.html#conferences-scientific-events",
+    "href": "talks.html#conferences-scientific-events",
+    "title": "Talks & Conferences",
+    "section": "",
+    "text": "Date\nEvent\nLocation\nContribution\nMaterials\n\n\n\n\nApr. 2026\nPIML Day\nParis, France\nPoster: Physics-Informed Neural Networks for Liquid–Solid Systems with Phase Change\nPoster\n\n\nJul. 2025\nAI4Science – Summer School\nCaen, France\nTalk: Physics-Informed Neural Networks for Liquid–Solid Systems with Phase Change\n—\n\n\nMay 2024\nCANUM 2024\nÎle de Ré, France\nTalk: Physics-Informed Neural Networks for Heat Conduction with Phase Change\n—\n\n\nJul.–Aug. 2023\nCEMRACS 2023 Hackathon\nCIRM, Marseille, France\nResearch project: Fourier Neural Operators for Incompressible Two-Phase Flow Simulation\n—\n\n\nJul. 2023\nCEMRACS 2023 – Summer School\nCIRM, Marseille, France\nScientific Machine Learning\n—",
+    "crumbs": [
+      "Events"
+    ]
+  },
+  {
+    "objectID": "talks.html#science-outreach",
+    "href": "talks.html#science-outreach",
+    "title": "Talks & Conferences",
+    "section": "Science Outreach",
+    "text": "Science Outreach\nI regularly participate in outreach activities organized by Les Sorciers de Salem, a group dedicated to making mathematics accessible to the general public through interactive activities and workshops.",
+    "crumbs": [
+      "Events"
+    ]
+  }
+]
