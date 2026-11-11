@@ -1,6 +1,7 @@
 project:
   type: website
   resources:
+    - google772ba93048668d6b.html
     - files/CV_FR.pdf
 
 website:
