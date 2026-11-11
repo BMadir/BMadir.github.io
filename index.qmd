@@ -1,0 +1,56 @@
+---
+title: "Home"
+title-block-style: none
+---
+
+::: {.columns .home-columns}
+
+::: {.column width="35%" .profile-column}
+
+![](images/madir_bahae-eddine.png){width=200px}
+
+:::
+
+::: {.column width="65%" .bio-column}
+
+# Bahae-Eddine Madir
+
+**Postdoctoral Researcher**
+
+I am a postdoctoral researcher in applied mathematics at the Laboratoire de Mathématiques Raphaël Salem (LMRS), University of Rouen Normandy. My current research focuses on inverse problems and the optimization of phase-change materials using scientific machine learning techniques.
+
+In June 2026, I obtained my PhD in Applied Mathematics at LMRS. My doctoral research focused on the numerical simulation of liquid–solid phase-change problems using machine learning approaches, particularly Physics-Informed Neural Networks (PINNs).
+
+
+### Research Interests
+
+::: {.keywords-box}
+
+<span class="keyword">Numerical Methods for PDEs</span>
+<span class="keyword">Scientific Machine Learning</span>
+<span class="keyword">PINNs</span>
+<div style="height: 1mm;"></div>
+<span class="keyword">Liquid–Solid Systems</span>
+<span class="keyword">Phase Change</span>
+
+:::
+
+<div style="height: 10mm;"></div>
+For more details about my research, see the [Research](research.qmd) page.
+<div style="height: 1mm;"></div>
+My scientific codes and projects are available on my [GitHub](https://github.com/BMadir) page.
+
+### Contact
+
+**Email:**  
+bahae-eddine.madir1@univ-rouen.fr  
+**Office:**  
+M.2.16, 2nd floor  
+Laboratoire de Mathématiques Raphaël Salem (LMRS)  
+UMR 6085, CNRS – University of Rouen Normandy  
+Avenue de l'Université, BP 12  
+76801 Saint-Étienne-du-Rouvray, France
+
+:::
+
+:::

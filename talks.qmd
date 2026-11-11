@@ -1,0 +1,21 @@
+---
+title: "Talks & Conferences"
+---
+
+## Conferences & Scientific Events
+
+| Date | Event | Location | Contribution | Materials |
+|---|---|---|---|---|
+| Apr. 2026 | **[PIML Day](https://pimlday26.sciencesconf.org/?lang=fr)** | Paris, France | Poster: *Physics-Informed Neural Networks for Liquid–Solid Systems with Phase Change* | [Poster](files/poster.pdf) |
+| Jul. 2025 | **[AI4Science – Summer School](https://ai4science.sciencesconf.org/)** | Caen, France | Talk: *Physics-Informed Neural Networks for Liquid–Solid Systems with Phase Change* | — |
+| May 2024 | **[CANUM 2024](https://canum2024.math.cnrs.fr/fr/)** | Île de Ré, France | Talk: *Physics-Informed Neural Networks for Heat Conduction with Phase Change* | — |
+| Jul.–Aug. 2023 | **[CEMRACS 2023 Hackathon](http://smai.emath.fr/cemracs/cemracs23/projects.html)** | CIRM, Marseille, France | Research project: *Fourier Neural Operators for Incompressible Two-Phase Flow Simulation* | — |
+| Jul. 2023 | **[CEMRACS 2023 – Summer School](http://smai.emath.fr/cemracs/cemracs23/)** | CIRM, Marseille, France | Scientific Machine Learning | — |
+
+
+## Science Outreach
+
+I regularly participate in outreach activities organized by
+[Les Sorciers de Salem](https://sorciersdesalem.math.cnrs.fr/),
+a group dedicated to making mathematics accessible to the general public
+through interactive activities and workshops.
