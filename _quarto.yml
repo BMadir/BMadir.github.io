@@ -2,7 +2,8 @@ project:
   type: website
   resources:
     - google772ba93048668d6b.html
-    - files/CV_FR.pdf
+    - files/cv_FR.pdf
+    - files/cv_EN.pdf
 
 website:
   title: "Bahae-Eddine Madir"
@@ -21,14 +22,14 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: talks.qmd
+      - href: events.qmd
         text: Events
       - section: "Download CV"
         contents:
           - text: "Français (PDF)"
-            href: files/CV_FR.pdf
+            href: files/cv_FR.pdf
           - text: "English (PDF)"
-            href: files/CV_FR.pdf
+            href: files/cv_EN.pdf
 
 format:
   html:
